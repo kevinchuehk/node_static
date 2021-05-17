@@ -1,1 +1,0 @@
- CC_VER="6.5.0" AR=arm-linux-gnueabihf-ar LINK=arm-linux-gnueabihf-g++ CC=arm-linux-gnueabihf-gcc CXX=arm-linux-gnueabihf-g++ ./configure --fully-static --prefix=../install --dest-os=linux --dest-cpu=arm --cross-compiling --without-npm --without-ssl --without-intl 

@@ -3,7 +3,7 @@
 ```bash
 ./configure --fully-static 
 #CC=clang CXX=clang++ ./configure --fully-static --prefix=../install --dest-os=linux
-make -j4
+make -j6
 
 # check node
 file out/Release/node 
@@ -12,5 +12,5 @@ file out/Release/node
 
 #build for arm 
 ./arm-configure
-make snapshot=off -j6
+make -j6
 ```

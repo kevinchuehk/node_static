@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --fully-static --prefix=../install --cross-compiling --without-npm --dest-cpu=arm --dest-os=linux --with-arm-float-abi=hard --without-node-snapshot --without-ssl --without-inspector --without-node-code-cache --verbose --without-snapshot

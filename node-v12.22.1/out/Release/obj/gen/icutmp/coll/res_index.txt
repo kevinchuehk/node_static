@@ -1,0 +1,40 @@
+﻿// -*- Coding: utf-8; -*-
+//
+// NOTE: This file was generated during the build process.
+// Generator: tools/icu/iculslocs.cc
+// Input package-tree/item: icudt67l-coll/res_index.res
+res_index:table(nofallback) {
+    // First, everything besides InstalledLocales:
+    AliasLocales:table {
+        ars:string {""}
+        in:string {""}
+        in_ID:string {""}
+        iw:string {""}
+        iw_IL:string {""}
+        mo:string {""}
+        no:string {""}
+        no_NO:string {""}
+        pa_IN:string {""}
+        sh:string {""}
+        sh_BA:string {""}
+        sh_CS:string {""}
+        sh_YU:string {""}
+        sr_BA:string {""}
+        sr_ME:string {""}
+        sr_RS:string {""}
+        yue:string {""}
+        yue_CN:string {""}
+        yue_Hans:string {""}
+        yue_Hans_CN:string {""}
+        yue_Hant:string {""}
+        zh_CN:string {""}
+        zh_HK:string {""}
+        zh_MO:string {""}
+        zh_SG:string {""}
+        zh_TW:string {""}
+    }
+
+    InstalledLocales:table { // 1 locales in input res_index.res
+        en {""}
+    } // 1/1 valid
+}

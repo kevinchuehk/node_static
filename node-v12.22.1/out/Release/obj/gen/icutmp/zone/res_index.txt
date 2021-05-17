@@ -1,0 +1,65 @@
+﻿// -*- Coding: utf-8; -*-
+//
+// NOTE: This file was generated during the build process.
+// Generator: tools/icu/iculslocs.cc
+// Input package-tree/item: icudt67l-zone/res_index.res
+res_index:table(nofallback) {
+    // First, everything besides InstalledLocales:
+    AliasLocales:table {
+        ars:string {""}
+        az_AZ:string {""}
+        bs_BA:string {""}
+        en_NH:string {""}
+        en_RH:string {""}
+        ff_CM:string {""}
+        ff_GN:string {""}
+        ff_MR:string {""}
+        ff_SN:string {""}
+        in:string {""}
+        in_ID:string {""}
+        iw:string {""}
+        iw_IL:string {""}
+        ks_IN:string {""}
+        mni_IN:string {""}
+        mo:string {""}
+        no:string {""}
+        no_NO:string {""}
+        no_NO_NY:string {""}
+        pa_IN:string {""}
+        pa_PK:string {""}
+        sat_IN:string {""}
+        sd_PK:string {""}
+        sh:string {""}
+        sh_BA:string {""}
+        sh_CS:string {""}
+        sh_YU:string {""}
+        shi_MA:string {""}
+        sr_BA:string {""}
+        sr_CS:string {""}
+        sr_Cyrl_CS:string {""}
+        sr_Cyrl_YU:string {""}
+        sr_Latn_CS:string {""}
+        sr_Latn_YU:string {""}
+        sr_ME:string {""}
+        sr_RS:string {""}
+        sr_XK:string {""}
+        sr_YU:string {""}
+        su_ID:string {""}
+        tl:string {""}
+        tl_PH:string {""}
+        uz_AF:string {""}
+        uz_UZ:string {""}
+        vai_LR:string {""}
+        yue_CN:string {""}
+        yue_HK:string {""}
+        zh_CN:string {""}
+        zh_HK:string {""}
+        zh_MO:string {""}
+        zh_SG:string {""}
+        zh_TW:string {""}
+    }
+
+    InstalledLocales:table { // 1 locales in input res_index.res
+        en {""}
+    } // 1/1 valid
+}
