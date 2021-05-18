@@ -27,9 +27,6 @@ DEFS_Debug := \
 	'-DOPENSSL_NO_PINSHARED' \
 	'-DOPENSSL_THREADS' \
 	'-DV8_TARGET_ARCH_ARM' \
-	'-DCAN_USE_ARMV7_INSTRUCTIONS' \
-	'-DCAN_USE_VFP3_INSTRUCTIONS' \
-	'-DCAN_USE_VFP32DREGS' \
 	'-DV8_EMBEDDER_STRING="-node.46"' \
 	'-DENABLE_DISASSEMBLER' \
 	'-DV8_PROMISE_INTERNAL_FIELD_COUNT=1' \
@@ -63,8 +60,6 @@ CFLAGS_Debug := \
 	-Wno-unused-parameter \
 	-Wno-return-type \
 	-fno-strict-aliasing \
-	-march=armv7-a \
-	-mfpu=vfpv3 \
 	-mfloat-abi=hard \
 	-marm \
 	-g \
@@ -98,9 +93,6 @@ DEFS_Release := \
 	'-DOPENSSL_NO_PINSHARED' \
 	'-DOPENSSL_THREADS' \
 	'-DV8_TARGET_ARCH_ARM' \
-	'-DCAN_USE_ARMV7_INSTRUCTIONS' \
-	'-DCAN_USE_VFP3_INSTRUCTIONS' \
-	'-DCAN_USE_VFP32DREGS' \
 	'-DV8_EMBEDDER_STRING="-node.46"' \
 	'-DENABLE_DISASSEMBLER' \
 	'-DV8_PROMISE_INTERNAL_FIELD_COUNT=1' \
@@ -126,8 +118,6 @@ CFLAGS_Release := \
 	-Wno-unused-parameter \
 	-Wno-return-type \
 	-fno-strict-aliasing \
-	-march=armv7-a \
-	-mfpu=vfpv3 \
 	-mfloat-abi=hard \
 	-marm \
 	-O3 \

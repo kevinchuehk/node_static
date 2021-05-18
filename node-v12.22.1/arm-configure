@@ -3,19 +3,15 @@
 HOST_OS="linux"
 HOST_ARCH="x86_64"
 
-#export AR_host=$(command -v arm-linux-gnueabihf-ar)
-#export LINK_host=$(command -v arm-linux-gnueabihf-g++)
-#export CC_host=$(command -v clang)
-#export CXX_host=$(command -v clang++)
-export AR=arm-linux-gnueabihf-ar
-export LINK=arm-linux-gnueabihf-g++
-export CC="arm-linux-gnueabihf-gcc -march=armv7-a"
-export CXX="arm-linux-gnueabihf-g++ -march=armv7-a"
+#export AR=arm-linux-gnueabihf-ar
+#export LINK=arm-linux-gnueabihf-g++
+export CC="arm-linux-gnueabihf-gcc -marm -march=armv6+vfpv2 -mfloat-abi=hard"
+export CXX="arm-linux-gnueabihf-g++ -marm -march=armv6+vfpv2 -mfloat-abi=hard"
 
 GYP_DEFINES="target_arch=arm"
-GYP_DEFINES+=" arm_version=7"
+GYP_DEFINES+=" arm_version=6"
 GYP_DEFINES+=" v8_target_arch=arm"
 GYP_DEFINES+=" host_os=linux"
 export GYP_DEFINES
 
-./configure --fully-static --prefix=../install --cross-compiling --without-npm  --dest-cpu=arm --dest-os=linux --with-arm-float-abi=hard   --without-node-snapshot --without-ssl --without-inspector --without-node-code-cache --verbose --without-snapshot
+./configure --fully-static --prefix=../install --cross-compiling --without-npm  --dest-cpu=arm --dest-os=linux --without-node-snapshot --without-ssl --without-inspector --without-node-code-cache --verbose --without-snapshot
